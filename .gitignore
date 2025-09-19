@@ -2,10 +2,25 @@
 __pycache__/
 
 # Virtual Environment
-.venv   
+.venv
 
 # Environment Variables
-.env
+.env*
 
 # Python Version
 .python-version
+
+# Poetry
+poetry.lock
+
+# 數據庫文件
+*.db
+*.rdb
+celerybeat-schedule.db
+flower.db.db
+dump.rdb
+
+# Claude
+CLAUDE.md
+
+Requirement.md
