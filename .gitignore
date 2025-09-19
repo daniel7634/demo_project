@@ -20,6 +20,9 @@ celerybeat-schedule.db
 flower.db.db
 dump.rdb
 
+# pytest
+.pytest_cache
+
 # Claude
 CLAUDE.md
 
