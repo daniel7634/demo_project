@@ -6,7 +6,7 @@ from datetime import datetime
 
 from fastapi import APIRouter
 
-router = APIRouter(tags=["system"])
+router = APIRouter(prefix="/api/v1", tags=["system"])
 
 
 @router.get("/")
